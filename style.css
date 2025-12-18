@@ -1,0 +1,38 @@
+@font-face {
+    font-family: Inter;
+    src: url(Inter-VariableFont_opsz\,wght.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    row-gap: 50px;
+    background-image: url(822207-free-download-nice-pictures-for-desktop-background-1920x1200-windows.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+h1{
+    font-size: 50px;
+    color: brown;
+}
+nav{
+    display: flex;
+    row-gap: 25px;
+    flex-direction: column;
+}
+nav a{
+    text-decoration: none;
+    color: navy;
+    font-weight: bold;
+    font-size: 25px;
+}
+nav a:hover{
+    text-decoration: underline;
+    color: rgb(128, 255, 128);
+}
